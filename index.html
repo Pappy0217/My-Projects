@@ -19,8 +19,8 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
-  color: white;
+  background: #f675d1;
+  color:blue;
 }
 
 /* Increase the font size of the heading */
@@ -44,16 +44,23 @@ body {
   text-decoration: none;
 }
 
-/* Right-aligned link */
-.navbar a.right {
-  float:right;
+.navbar a:link{
+  color:greenyellow;
 }
+ 
+
+/*.navbar a:visited{
+  color:red;
+}*/
 
 /* Change color on hover */
 .navbar a:hover {
   background-color: #ddd;
   color: black;
+  text-decoration: underline;
 }
+
+
 
 /* Column container */
 .row {  
@@ -82,16 +89,16 @@ body {
 
 /* Fake image, just for this example */
 .fakeimg {
-  background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
 
 /* Footer */
 .footer {
+  color:blue;
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: rgb(117, 145, 155);
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -108,6 +115,10 @@ body {
     width: 100%;
   }
 }
+.orange{
+  color:red;
+  font-size: 20px;
+}
 </style>
 </head>
 <body>
@@ -119,40 +130,41 @@ body {
 
 <div class="navbar">
   <a href="https://github.com/Pappy0217/My-Projects" target="_blank">Github</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
+  <a href="https://www.linkedin.com/in/pranav-prabhu-36359325a/" target="_blank">LinkedIn</a>
+  <a href="https://twitter.com/PranavP54646909" target="_blank">Twitter</a>
 </div>
 
 <div class="row">
   <div class="side">
     <h2>About Me</h2>
     <h5>Photo of me:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
+    <div style="height:200px;"><img padding="20px" height="300" width="100%" src="C:\Users\Pranav\Pictures\Me1.jpeg"></img></div>
+    <br><br><br><br><br><br>
+    <p>Born on Oct 17,2002.I am currently pursuing my batchelors degree in Engineering in the stream of Comp Sc. .
+      A third year student in Bangalore Institute of Technology, Bangalore.</p>
+    <h2>More About Me</h2>
+    <p class="orange"><b>Sport</b></p><br>
+    <div style="height:200px;"><img padding="20px" height="175" width="100%" src="https://www.leparisien.fr/resizer/_jaGYoRTQw4e2v84uE-TMzO6tbo=/arc-anglerfish-eu-central-1-prod-leparisien/public/4IDNRGJTUNFKNMYXKYCWM5IYNM.jpg">Football</img></div><br>
+    <p class="orange"><b>Hobby</b></p><br>
+    <div style="height:275px;"><img class="fakeimg" height="250" src="https://cdn.myanimelist.net/s/common/uploaded_files/1444014275-106dee95104209bb9436d6df2b6d5145.jpeg">Watching Anime</img></div><br>
+    <p class="orange"><b>Language currently learning</b></p><br>
+    <div style="height:175px;"><img class="fakeimg" height="150" src="https://miro.medium.com/max/1400/1*m0H6-tUbW6grMlezlb52yw.png">Python</img></div>
   </div>
   <div class="main">
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <h2>Favourite Sportsperson</h2>
+    <h4><i>Lionel Messi</i></h4>
+    <div style="height:500px;"><img class="fakeimg" height="500" src="https://phantom-marca.unidadeditorial.es/e1e65aab8cbcb632d9c8359b2b6840f9/resize/1320/f/jpg/assets/multimedia/imagenes/2021/07/17/16265320344770.jpg"></img></div>
+    <p>About him</p><br>
+    <p>G.O.A.T. Simply the best.</p>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <h2>Quote</h2>
+    <div style="height:500px;"><img class="fakeimg" height="500" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/happy-quotes-psdout-of-style-1550850740.jpg"></img></div>
+    <p>Be happy everyone &#128516;</p>
   </div>
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <h2><marquee direction="right">Thank you for scrolling till the end</marquee></h2>
 </div>
 
 </body>
